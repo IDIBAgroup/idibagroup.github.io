@@ -1330,7 +1330,7 @@ body {
 }
 
 [data-overlay-dark]:before {
-    background: #02050b;
+    background: #0152f2;
 }
 
 [data-overlay-light]:before {
