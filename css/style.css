@@ -3718,7 +3718,7 @@ header.simpl {
     width: 0;
     top: 0;
     left: 0;
-    background-color: #75dab4;
+    background-color: #0871B7;
     -webkit-transition: all 1.5s;
     -o-transition: all 1.5s;
     transition: all 1.5s; }
@@ -3729,7 +3729,7 @@ header.simpl {
       top: -45px;
       padding: 7px 15px;
       border-radius: 5px;
-      background: #75dab4;
+      background: #0871B7;
       color: #111;
       font-size: 12px;
       font-weight: 600; }
@@ -3739,7 +3739,7 @@ header.simpl {
       height: 0;
       border-left: 5px solid transparent;
       border-right: 5px solid transparent;
-      border-top: 8px solid #75dab4;
+      border-top: 8px solid #0871B7;
       position: absolute;
       right: 15px;
       bottom: 14px; }
@@ -3761,7 +3761,7 @@ header.simpl {
       top: 50%;
       width: 5px;
       height: 1px;
-      background: #75dab4; }
+      background: #0871B7; }
 
 /* ====================== [ Start tabs & list ] ====================== */
 /* ====================== [ Start Team ] ====================== */
@@ -3814,7 +3814,7 @@ header.simpl {
         .team .item .info .social a {
           font-size: 13px;
           margin: 0 8px;
-          color: #75dab4; }
+          color: #0871B7; }
     .team .item:hover .info h5, .team .item:hover .info span {
       opacity: 0; }
     .team .item:hover .info .social {
@@ -3833,7 +3833,7 @@ header.simpl {
   .team .slick-dots {
     bottom: -40px; }
   .team .slick-dots li.slick-active button {
-    background: #75dab4; }
+    background: #0871B7; }
   .team .slick-dots li button {
     width: 10px;
     height: 10px;
@@ -3848,7 +3848,7 @@ header.simpl {
       top: 4px;
       left: 4px;
       line-height: 1;
-      background: #75dab4;
+      background: #0871B7;
       opacity: 1; }
 
 .team-crv .img-box .img {
@@ -3887,7 +3887,7 @@ header.simpl {
       letter-spacing: 2px;
       font-weight: 500;
       margin-bottom: 5px;
-      color: #75dab4; }
+      color: #0871B7; }
     .testimonials .item .info .author-details {
       font-size: 13px; }
 
@@ -3920,7 +3920,7 @@ header.simpl {
   -o-transition: all .4s;
   transition: all .4s; }
   .testimonials .arrows .next:hover, .testimonials .arrows .prev:hover {
-    border-color: #75dab4; }
+    border-color: #0871B7; }
 
 .testimonials .arrows .prev {
   right: auto;
