@@ -151,7 +151,7 @@ a, span {
   width: 100% !important; }
 
 .main-color {
-  color: #75dab4 !important; }
+  color: #0871B7 !important; }
 
 .bg-gray {
   background-color: #f8f4f3; }
@@ -166,7 +166,7 @@ a, span {
     box-shadow: 0px 4px 40px -4px rgba(255, 255, 255, 0.2); }
 
 .bg-color {
-  background-color: #75dab4 !important; }
+  background-color: #0871B7!important; }
   .bg-color .primery-shadow {
     -webkit-box-shadow: 0px 4px 40px -4px rgba(255, 255, 255, 0.2);
     box-shadow: 0px 4px 40px -4px rgba(255, 255, 255, 0.2); }
@@ -249,6 +249,8 @@ a, span {
 .text-extra-light-gray {
   color: #b7b7b7; }
 
+  .text-red {
+    color: #FE3333; }
 /*-------------------------------------------------------
 					font-weight
 -------------------------------------------------------*/
@@ -713,7 +715,7 @@ a, span {
 
 /* ====================== [ End Helper Classes  ] ====================== */
 /* ====================== [ Start Preloader ] ====================== */
-/* .pace { 
+.pace { 
   pointer-events: none;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -810,7 +812,6 @@ a, span {
     -webkit-transition-delay: .5s;
     -o-transition-delay: .5s;
     transition-delay: .5s; }
-*/
 /* ====================== [ End Preloader ] ====================== */
 /* ====================== [ Start Text Animation & Images ] ====================== */
 .splitting.animated .char {
@@ -2912,7 +2913,7 @@ header.simpl {
         opacity: .8;
         z-index: -1; }
     .services .item-box .icon {
-      color: #75dab4;
+      color: #0871B7;
       font-size: 40px;
       margin-bottom: 30px; }
     .services .item-box h6 {
@@ -4047,7 +4048,7 @@ header.simpl {
     opacity: .1; }
   .block-sec .vid-area .vid-icon .vid span {
     font-size: 30px;
-    color: #75dab4; }
+    color: #0871B7; }
 
 .block-sec .vid-area .cont {
   margin-top: 40px; }
@@ -4061,7 +4062,7 @@ header.simpl {
 
 .block-sec .testim-box {
   position: relative;
-  background: #75dab4;
+  background: #0871B7;
   padding: 80px 40px;
   margin-bottom: -120px; }
   .block-sec .testim-box .head-box h6 {
