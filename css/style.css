@@ -2371,7 +2371,9 @@ body {
     font-weight: 700;
     text-transform: capitalize;
 }
-
+.slider .parallax-slider .caption .left-pos{
+    left:245px;
+}
 .slider .parallax-slider .caption .btn-curve:hover span {
     color: #0c0f16;
 }
@@ -6712,7 +6714,7 @@ header.simpl .caption .btn-curve {
         margin-left: 0;
     }
     .slider .parallax-slider .caption h1 {
-        font-size: 40px;
+        font-size: 44px;
         letter-spacing: 1px;
     }
     .slider .parallax-slider .caption h1 br {
@@ -6929,7 +6931,7 @@ header.simpl .caption .btn-curve {
         width: 40px;
     }
     .btn-curve {
-        padding: 8px 15px;
+        padding: 5px 8px;
     }
     .btn-curve span {
         font-size: 15px;
@@ -6969,6 +6971,9 @@ header.simpl .caption .btn-curve {
     }
     .slider .swiper-pagination-fraction.top .swiper-pagination-current {
         font-size: 40px;
+    }
+    .slider .parallax-slider .caption .left-pos{
+        left: 222px;
     }
     .slider .parallax-slider .caption.dig h1 {
         font-size: 40px;
@@ -7084,6 +7089,15 @@ header.simpl .caption .btn-curve {
     }
     .slider-bus .caption h1 {
         font-size: 50px;
+    }
+    .slider .parallax-slider .caption .btn-curve{
+        left: 0;
+    }
+    .slider .parallax-slider .caption .btn-curve span {
+        font-size: 9px;
+    }
+    .slider .parallax-slider .caption .left-pos {
+        left: 130px;
     }
     .slider .swiper-pagination-fraction.steps {
         bottom: 60px;
