@@ -1071,7 +1071,7 @@ span:hover {
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: #75dab4;
+    color: #0871B7;
     font-family: 'Teko', sans-serif;
     z-index: 9999;
 }
@@ -1439,7 +1439,7 @@ body {
 }
 
 .sec-head h6 {
-    color: #75dab4;
+    color: #0561E9;
     font-weight: 300;
     font-size: 17px;
     text-transform: uppercase;
@@ -1495,7 +1495,7 @@ body {
     width: 4px;
     height: 4px;
     border-radius: 50%;
-    background: #75dab4;
+    background: #0871B7;
     position: absolute;
     left: 6px;
     bottom: 5px;
@@ -1643,8 +1643,8 @@ body {
 }
 
 .btn-curve.btn-color {
-    background: #75dab4;
-    border-color: #75dab4;
+    background: #0871B7;
+    border-color: #0871B7;
 }
 
 .btn-curve.btn-color:after {
@@ -1656,7 +1656,7 @@ body {
 }
 
 .btn-curve.btn-color:hover span {
-    color: #75dab4;
+    color: #0871B7;
 }
 
 .btn-curve.btn-lg {
