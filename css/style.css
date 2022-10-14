@@ -1347,7 +1347,7 @@ body {
 [data-overlay-dark] h4,
 [data-overlay-dark] h5,
 [data-overlay-dark] h6,
-[data-overlay-dark] span,
+[data-overlay-dark],
 .bg-dark h1,
 .bg-dark h2,
 .bg-dark h3,
@@ -2322,6 +2322,7 @@ body {
 .slider .parallax-slider .caption h1 {
     font-size: 65px;
     font-weight: 700;
+    text-align: left;
     color: #fff;
     opacity: 0;
     visibility: hidden;
@@ -2329,10 +2330,12 @@ body {
     -o-transition: opacity .5s, visibility .5s;
     transition: opacity .5s, visibility .5s;
 }
-
 .slider .parallax-slider .caption p {
     color: #eee;
-    margin-top: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    line-height: 20px;
     opacity: 0;
     -webkit-transform: translateY(20px);
     -ms-transform: translateY(20px);
@@ -2358,6 +2361,9 @@ body {
     transition-delay: 1s;
     border: 2px solid;
     line-height: 2;
+    position: absolute;
+    left: 15px;
+    border-radius: 5px;
 }
 
 .slider .parallax-slider .caption .btn-curve span {
