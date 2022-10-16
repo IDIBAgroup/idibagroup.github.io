@@ -1619,7 +1619,7 @@ body {
 }
 
 .btn-curve.btn-lit:hover span {
-    color: #75dab4;
+    color: #0871B7;
 }
 
 .btn-curve.btn-lit:after {
@@ -2322,7 +2322,7 @@ body {
 .slider .parallax-slider .caption h1 {
     font-size: 65px;
     font-weight: 700;
-    text-align:center;
+    text-align: center;
     color: #fff;
     opacity: 0;
     visibility: hidden;
@@ -3063,7 +3063,7 @@ header.simpl .caption .btn-curve {
 }
 
 .pages-header .cont .path .active {
-    color: #75dab4;
+    color: #0871B7;
 }
 
 .pages-header .cont .path span {
@@ -6651,7 +6651,7 @@ header.simpl .caption .btn-curve {
     }
     .nav-scroll .navbar-collapse .active,
     .light .navbar-collapse .active {
-        color: #75dab4 !important;
+        color: #0871B7 !important;
     }
     .navbar .search {
         border: 0;
