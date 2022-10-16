@@ -1558,7 +1558,7 @@ body {
 
 .btn-curve {
     background: transparent;
-    padding: 6px 15px;
+    padding: 12px 35px;
     border: 1px solid #1e1e1e;
     position: relative;
     left: 0;
@@ -2322,7 +2322,7 @@ body {
 .slider .parallax-slider .caption h1 {
     font-size: 65px;
     font-weight: 700;
-    text-align: left;
+    text-align:center;
     color: #fff;
     opacity: 0;
     visibility: hidden;
@@ -2335,7 +2335,7 @@ body {
     color: #eee;
     margin: 0;
     padding: 0;
-    text-align: left;
+    text-align: center;
     line-height: 20px;
     opacity: 0;
     -webkit-transform: translateY(20px);
@@ -3655,7 +3655,6 @@ header.simpl .caption .btn-curve {
 
 .about .ftbox ul li {
     width: 100%;
-    padding: 35px 25px;
     text-align: center;
     background: #11141b;
     border-radius: 5px;
