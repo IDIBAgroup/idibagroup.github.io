@@ -253,7 +253,7 @@ span:hover {
 }
 
 .section-padding {
-    padding: 120px 0;
+    padding: 100px 0;
 }
 
 .section-ptb {
@@ -1558,7 +1558,7 @@ body {
 
 .btn-curve {
     background: transparent;
-    padding: 12px 35px;
+    padding: 12px 20px;
     border: 1px solid #1e1e1e;
     position: relative;
     left: 0;
@@ -4232,7 +4232,7 @@ header.simpl .caption .btn-curve {
     -webkit-transition: all .4s;
     -o-transition: all .4s;
     transition: all .4s;
-    max-width: 75px;
+    max-width: 200px;
     margin: auto;
 }
 
