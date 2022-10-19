@@ -233,7 +233,6 @@ span:hover {
 .sub-bg {
     background: #11141b;
 }
-
 .bg-img {
     background-size: cover;
     background-repeat: no-repeat;
@@ -1832,8 +1831,14 @@ body {
     height: 12vh;
     top: 14%;
     right: 0;
-    background: #F9F9F9;
+    background: #F6F6F6;
     display: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 15px;
+    border-width: 5px;
+    border-color: #707070;
 }
 
 .navbar .search .search-form form {
@@ -3049,7 +3054,7 @@ header.simpl .caption .btn-curve {
 }
 
 .pages-header {
-    height: 75vh;
+    height: 100vh;
 }
 
 .pages-header .cont h1 {
@@ -4769,7 +4774,7 @@ header.simpl .caption .btn-curve {
 }
 
 .work-carousel .noraidus .item-img {
-    height: 480px;
+    height: 350px;
     border-radius: 0;
 }
 
@@ -5052,6 +5057,78 @@ header.simpl .caption .btn-curve {
 
 
 /* ====================== [ End progress bar ] ====================== */
+
+
+/* ====================== [Start Apk Section ] =======================*/
+.app-section{
+    background: #000;
+    padding: 70px;
+}
+.app-section .sol-app{
+    margin-top: 80px !important;
+}
+.app-section .sol-app .para{
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 20px;
+}
+.app-section h5{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.app-section .sol-app .red-txt{
+    font-size: 30px;
+    color: #FE3333;
+}
+.app-section .btn-app-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.app-section .btn-app-box .btn-app{
+    padding: 10px;
+    background: #FFF;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.app-section .btn-app-box .btn-app img{
+    width: 40px;
+    margin-right: 10px;
+}
+.app-section .btn-app-box .btn-app p{
+    font-size: 12px;
+    color: #000;
+    font-weight: 400;
+    line-height: 20px;
+}
+.app-section .btn-app-box .btn-app p span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.app-section .pos-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.app-section .pos-box h6{
+    color: #8F8F8F;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.app-section .pos-box P{
+    color: #8F8F8F;
+    font-size: 12px;
+    line-height: 16px;
+}
+/* ====================== [Start Apk Section ] =======================*/
 
 
 /* ====================== [ Start tabs & list ] ====================== */
@@ -6443,9 +6520,11 @@ header.simpl .caption .btn-curve {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 50%;
-    background: #151921;
+    height: 80%;
+    width: 55%;
+    background: #022355 url(../img/design-pied-de-page.png) no-repeat;
+    background-position: center;
+    background-size: cover;
     z-index: -1;
 }
 
@@ -6459,8 +6538,12 @@ header.simpl .caption .btn-curve {
 }
 
 .footer-half .cont .logo {
-    width: 55px;
+    width: 100px;
     margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    top: 0;
+    left: 50%
 }
 
 .footer-half .cont .con-info li {
@@ -6543,7 +6626,7 @@ header.simpl .caption .btn-curve {
 }
 
 .footer-half .copyrights {
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 30px 0;
     background: #13161d;
 }
@@ -6834,7 +6917,61 @@ header.simpl .caption .btn-curve {
     .next-prog .box .copy-cap h1 {
         font-size: 40px;
     }
+    /* ====================== [Start Apk Section ] =======================*/
+    .app-section{
+        background: #000;
+        padding: 60px;
+    }
+    .app-section .sol-app{
+        margin-top: 10px !important;
+    }
+    .app-section .sol-app .para{
+        font-size: 15px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .app-section .sol-app h5{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .app-section .sol-app .red-txt {
+        font-size: 30px;
+    }
+    .app-section .btn-app-box {
+        justify-content: flex-start;
+        margin-top: 10px;
+    }
+    .app-section .btn-app-box .btn-app{
+        margin-right: 20px;
+    }
+    .app-section .btn-app-box .btn-app{
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .app-section .btn-app-box .btn-app p{
+        font-size: 12px;
+    }
+    .app-section p{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .app-section .btn-app-box .btn-app p span{
+        font-size: 14px;
+    }
+    .app-section .pos-box{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .app-section .pos-box h6{
+        font-size: 16px;
+    }
+    .app-section .pos-box P{
+        font-size: 12px;
+        line-height: 16px;
+    }
 }
+/* ====================== [Start Apk Section ] =======================*/
 
 @media screen and (max-width: 767px) {
     .sm-mb10 {
@@ -7057,6 +7194,41 @@ header.simpl .caption .btn-curve {
     .team-crv .img-box .img.sizmd {
         margin-bottom: 30px;
     }
+    .app-section .sol-app {
+        margin-top: 20px;
+    }
+    .app-section .btn-app-box {
+        flex-direction: column;
+        align-items: initial;
+    }
+    .app-section .sol-app .red-txt {
+        font-size: 20px;
+    }
+    .app-section .sol-app h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .app-section .btn-app-box .btn-app {
+        border-radius: 5px;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .app-section .btn-app-box .btn-app p span{
+        font-size: 14px;
+    }
+    .app-section .pos-box {
+        flex-direction: column;
+    }
+    .app-section .pos-box .int-box{
+        margin-bottom: 10px;
+    }
+    .app-section .pos-box h6 {
+        font-size: 13px;
+    }
+    .app-section .pos-box P {
+        font-size: 10px;
+        line-height: 15px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -7150,6 +7322,47 @@ header.simpl .caption .btn-curve {
         display: inline-block;
         color: #fff;
         -webkit-text-stroke: 0px #fff;
+    }
+    .app-section {
+        padding: 30px;
+    }
+    .app-section .btn-app-box .btn-app img {
+        width: 23px;
+        margin-right: 10px;
+    }
+    .app-section .btn-app-box .btn-app p {
+        font-size: 9px;
+        line-height: 12px;
+    }
+    .app-section .sol-app .para {
+        font-size: 9px;
+        margin-top: 0;
+    }
+    .app-section .red-txt {
+        font-size: 22px;
+    }
+    .app-section h5 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .app-section p {
+        font-size: 12px;
+        line-height: 19px;
+        margin-top: 6px;
+    }
+    .app-section .btn-app-box{
+        margin-top: 8px !important;
+    }
+    .app-section .pos-box h6 {
+        font-size: 10px;
+        margin-bottom: 2px;
+    }
+    .app-section .pos-box P {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .app-section .btn-app-box .btn-app p span {
+        font-size: 10px;
     }
 }
 
