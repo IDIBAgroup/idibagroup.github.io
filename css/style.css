@@ -6521,8 +6521,9 @@ header.simpl .caption .btn-curve {
     top: 0;
     left: 0;
     height: 80%;
-    width: 55%;
-    background: #022355 url(../img/design-pied-de-page.png) no-repeat;
+    width: 100%;
+    background:  linear-gradient(14deg, rgba(1, 76, 186, 1), rgba(5, 54, 128, 1), rgba(2, 35, 86, 1)),
+     url(../img/design-pied-de-page.png) no-repeat;
     background-position: center;
     background-size: cover;
     z-index: -1;
@@ -6626,9 +6627,7 @@ header.simpl .caption .btn-curve {
 }
 
 .footer-half .copyrights {
-    margin-top: 10px;
     padding: 30px 0;
-    background: #13161d;
 }
 
 .footer-half .copyrights p {
