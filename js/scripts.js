@@ -900,3 +900,37 @@ $('[data-carousel="swiper"]').each(function () {
         var init = new Swiper(initID, conf);
     };
 });
+
+
+
+
+/*============== Start personnal script =====================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*============== End personnal script =====================*/

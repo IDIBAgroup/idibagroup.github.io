@@ -63,7 +63,7 @@
 
 body {
     color: #fff;
-    background: #0c0f16;
+    background: #ffffff;
     line-height: 1.5;
     font-weight: 400;
     overflow-x: hidden !important;
@@ -71,7 +71,7 @@ body {
 }
 
 body.dark2 {
-    background: #1e2128;
+    background: #ffffff;
 }
 
 body.dark2 .main-content {
@@ -6251,7 +6251,9 @@ header.simpl .caption .btn-curve {
 
 
 /* ====================== [ Start Call To Action  ] ====================== */
-
+.call-action{
+padding: 15px;
+}
 .call-action .content h6 {
     color: #0871B7;
     font-size: 13px;
