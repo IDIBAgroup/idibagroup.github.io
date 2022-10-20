@@ -96,8 +96,10 @@
 
 .last-footer {
   position:relative;
-  height:20vh;
-  text-align:center;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: white;
 }
 

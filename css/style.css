@@ -1705,6 +1705,7 @@ body {
     position: absolute;
     left: 0;
     top: 0;
+    z-index: 2;
 }
 
 .simple-btn.right:after {
@@ -6520,7 +6521,7 @@ header.simpl .caption .btn-curve {
     position: absolute;
     top: 0;
     left: 0;
-    height: 80%;
+    height: 80vh;
     width: 100%;
     background:  linear-gradient(14deg, rgba(1, 76, 186, 1), rgba(5, 54, 128, 1), rgba(2, 35, 86, 1)),
      url(../img/design-pied-de-page.png) no-repeat;
@@ -6535,30 +6536,26 @@ header.simpl .caption .btn-curve {
     letter-spacing: 4px;
     font-size: 13px;
     font-weight: 300;
-    margin-bottom: 30px;
 }
 
 .footer-half .cont .logo {
-    width: 100px;
-    margin-bottom: 30px;
     margin-top: 20px;
-    position: relative;
-    top: 0;
-    left: 50%
 }
-
-.footer-half .cont .con-info li {
-    margin-top: 10px;
+.footer-half .cont .logo p{
+    font-size: 10px;
+    color: #fff;
+}
+.footer-half .cont .con-info ul{
+    margin-top: 20px;
+}
+.footer-half .cont .con-info ul li {
+    line-height: 2;
     font-weight: 200;
 }
 
 .footer-half .cont .con-info li span {
     margin-right: 10px;
     font-weight: 500;
-}
-
-.footer-half .cont .social-icon {
-    margin-top: 40px;
 }
 
 .footer-half .cont .social-icon .social a {
@@ -6572,7 +6569,9 @@ header.simpl .caption .btn-curve {
     font-size: 13px;
     opacity: .6;
 }
-
+.footer-half .marg-align{
+    margin-top: 30px;
+}
 .footer-half .subscribe p {
     color: #999;
     font-size: 12px;
@@ -6592,7 +6591,7 @@ header.simpl .caption .btn-curve {
 .footer-half .subscribe form input {
     padding: 15px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.01);
+    background: rgba(255, 255, 255, 0.08);
     border: 0;
     color: #fff;
 }
@@ -6600,7 +6599,7 @@ header.simpl .caption .btn-curve {
 .footer-half .subscribe form button {
     border: 0;
     padding: 15px 30px;
-    background: rgba(255, 255, 255, 0.02);
+    background: #fff;
     color: #0871B7;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -6608,7 +6607,9 @@ header.simpl .caption .btn-curve {
     z-index: 2;
     cursor: pointer;
 }
-
+.footer-half .insta h6{
+    margin-bottom: 10px;
+}
 .footer-half .insta .insta-gallary a {
     width: 60px;
     height: 60px;
@@ -6626,13 +6627,10 @@ header.simpl .caption .btn-curve {
     object-position: center center;
 }
 
-.footer-half .copyrights {
-    padding: 30px 0;
-}
-
 .footer-half .copyrights p {
+    margin: 10px;
     font-size: 12px;
-    color: #999;
+    color: rgb(0, 0, 0);
 }
 
 .footer-half .copyrights p a {
