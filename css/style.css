@@ -63,7 +63,7 @@
 
 body {
     color: #fff;
-    background: #ffffff;
+    background: #02050b;
     line-height: 1.5;
     font-weight: 400;
     overflow-x: hidden !important;
@@ -71,7 +71,7 @@ body {
 }
 
 body.dark2 {
-    background: #ffffff;
+    background: #02050b;
 }
 
 body.dark2 .main-content {
@@ -1556,15 +1556,18 @@ body {
 /* ====================== [  Start Button Style ] ====================== */
 
 .btn-curve {
-    background: transparent;
+    background: #fff;
     padding: 12px 20px;
     border: 1px solid #1e1e1e;
     position: relative;
     left: 0;
     overflow: hidden;
     cursor: pointer;
+    margin-right: 20px;
 }
-
+.btn-curve .obt-devis{
+    color: #0871B7;
+}
 .btn-curve:focus {
     outline: none;
 }
@@ -1878,7 +1881,7 @@ body {
 }
 
 .nav-scroll {
-    background: #0871B7;
+    background: linear-gradient(210deg, rgba(1, 76, 186, 1), rgba(5, 54, 128, 1), rgba(2, 35, 86, 1));
     border-color: transparent;
     padding: 0;
     position: fixed;
@@ -6523,9 +6526,9 @@ padding: 15px;
     position: absolute;
     top: 0;
     left: 0;
-    height: 80vh;
+    height: 77vh;
     width: 100%;
-    background:  linear-gradient(14deg, rgba(1, 76, 186, 1), rgba(5, 54, 128, 1), rgba(2, 35, 86, 1)),
+    background:  linear-gradient(60deg, rgba(1, 76, 186, 1), rgba(5, 54, 128, 1), rgba(2, 35, 86, 1)),
      url(../img/design-pied-de-page.png) no-repeat;
     background-position: center;
     background-size: cover;
