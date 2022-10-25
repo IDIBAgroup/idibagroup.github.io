@@ -1833,17 +1833,16 @@ body {
 .navbar .search .search-form {
     position: fixed;
     width: 30%;
-    height: 12vh;
+    min-height: 50px;
     top: 14%;
-    right: 0;
+    right: 2%;
     background: #F6F6F6;
     display: none;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 15px;
-    border-width: 5px;
     border-color: #707070;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 34px;
 }
 
 .navbar .search .search-form form {
@@ -1864,7 +1863,6 @@ body {
     text-align: left;
     background: transparent;
     border: 0;
-    border-bottom: 2px solid #0871B7;
 }
 
 .navbar .search .search-form .close {
@@ -6396,7 +6394,9 @@ padding: 15px;
 
 
 /* ====================== [ Start Numbers & Counter  ] ====================== */
-
+.number-sec{
+    padding: 30px 0;
+}
 .number-sec .item {
     text-align: center;
     position: relative;
@@ -6424,7 +6424,7 @@ padding: 15px;
     bottom: 0;
     font-size: 70px;
     width: 100%;
-    opacity: .05;
+    opacity: 15%;
     z-index: -1;
 }
 
