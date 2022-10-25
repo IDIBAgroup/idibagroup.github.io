@@ -62,8 +62,8 @@
 }
 
 body {
-    color: #fff;
-    background: #02050b;
+    color: #02050b;
+    background: #fff;
     line-height: 1.5;
     font-weight: 400;
     overflow-x: hidden !important;
@@ -71,26 +71,26 @@ body {
 }
 
 body.dark2 {
-    background: #02050b;
+    background: #fff;
 }
 
 body.dark2 .main-content {
-    background: #1e2128;
+    background: #fff;
 }
 
 body.dark2 .sub-bg,
 body.dark2 .footer-half:after {
-    background: #21242b;
+    background: #fff;
 }
 
 body.dark2 .nav-scroll,
 body.dark2 .footer-half .copyrights {
-    background: #252830;
+    background: #fff;
     border-color: #363b45;
 }
 
 .main-content {
-    background: #0c0f16;
+    background: #fff;
     position: relative;
     z-index: 3;
 }
@@ -213,7 +213,7 @@ span:hover {
 }
 
 .bg-dark {
-    background-color: #141414 !important;
+    background-color: #fff !important;
 }
 
 .bg-dark .primery-shadow {
@@ -231,7 +231,7 @@ span:hover {
 }
 
 .sub-bg {
-    background: #11141b;
+    background: #fff;
 }
 .bg-img {
     background-size: cover;
@@ -1451,7 +1451,7 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 4px;
-    text-shadow: 0 8px rgba(255, 255, 255, 0.05);
+    text-shadow: 0 8px rgba(255, 255, 255, 20%);
 }
 
 .sec-head .tbg {
@@ -1698,13 +1698,14 @@ body {
     letter-spacing: 4px;
     font-size: 13px;
     font-weight: 300;
+    color: #11141b;
 }
 
 .simple-btn:after {
     content: '';
     width: 45%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(0, 0, 0, 0.10);
     position: absolute;
     left: 0;
     top: 0;
@@ -3921,10 +3922,11 @@ header.simpl .caption .btn-curve {
 
 .services .item-box .icon {
     color: #0871B7;
-    font-size: 40px;
     margin-bottom: 30px;
 }
-
+.services .item-box .icon img{
+    width: 50%;
+}
 .services .item-box h6 {
     line-height: 1.8;
     text-transform: capitalize;
@@ -4317,7 +4319,12 @@ header.simpl .caption .btn-curve {
     -o-transition: all .4s;
     transition: all .4s;
 }
-
+.clients{
+    background: #02050b;
+}
+.clients h3{
+    color: #fff;
+}
 
 /* ====================== [ End brands ] ====================== */
 
@@ -4811,7 +4818,7 @@ header.simpl .caption .btn-curve {
     left: 0;
     width: 100%;
     height: 200px;
-    background: #11141b;
+    background: #fff;
     z-index: 1;
 }
 
@@ -4944,7 +4951,9 @@ header.simpl .caption .btn-curve {
     display: -ms-flexbox;
     display: flex;
 }
-
+.sub-bgd{
+    background: #11141b;
+}
 .skills-circle .item.simpl {
     display: block;
 }
@@ -4981,6 +4990,7 @@ header.simpl .caption .btn-curve {
     transform: translateX(-50px) translateY(-50px);
     font-size: 20px;
     font-weight: 300;
+    color: #fff;
 }
 
 .skills-circle .cont {
@@ -4993,11 +5003,13 @@ header.simpl .caption .btn-curve {
     font-weight: 300;
     opacity: .9;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .skills-circle .cont h6 {
     font-size: 15px;
     font-weight: 500;
+    color: #fff;
 }
 
 .skills-box .skill-item {
@@ -5763,7 +5775,7 @@ header.simpl .caption .btn-curve {
 .blog-curs .item .cont {
     width: 50%;
     padding: 10px 30px;
-    background: #151921;
+    background: #fff;
 }
 
 .blog-curs .item .cont .info {
@@ -6277,7 +6289,7 @@ padding: 15px;
     text-transform: uppercase;
     margin-bottom: 20px;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
+    -webkit-text-stroke-color: #11141b;
     color: transparent;
 }
 
@@ -6423,7 +6435,7 @@ padding: 15px;
 }
 
 .number-sec .item p {
-    color: #fff;
+    color: #11141b;;
     letter-spacing: 1px;
 }
 
@@ -6519,6 +6531,7 @@ padding: 15px;
 .footer-half {
     position: relative;
     z-index: 2;
+    color: #fff;
 }
 
 .footer-half:after {
@@ -6526,15 +6539,23 @@ padding: 15px;
     position: absolute;
     top: 0;
     left: 0;
-    height: 77vh;
+    height: 100%;
     width: 100%;
     background:  linear-gradient(60deg, rgba(1, 76, 186, 1), rgba(5, 54, 128, 1), rgba(2, 35, 86, 1)),
      url(../img/design-pied-de-page.png) no-repeat;
     background-position: center;
     background-size: cover;
-    z-index: -1;
+    z-index: -3;
 }
-
+.footer-half .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-half .container .new-disposition{
+    display: flex;
+    justify-content: space-between;
+}
 .footer-half .stit {
     display: inline-block;
     text-transform: uppercase;
