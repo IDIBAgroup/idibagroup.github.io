@@ -908,10 +908,10 @@ $('[data-carousel="swiper"]').each(function () {
 
 /*============== Idiba phone animation ===================*/
 var phoneAnimation = bodymovin.loadAnimation({
-    container: document.getElementById("animphone"),
+    container: document.getElementById('animphone'),
     renderer: 'svg',
     autoplay: true,
-    path: "animapp.json"
+    path: "js/ANIMATION IDIBA GROUP.json"
 })
 
 
