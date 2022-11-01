@@ -907,11 +907,17 @@ $('[data-carousel="swiper"]').each(function () {
 /*============== Start personnal script =====================*/
 
 /*============== Idiba phone animation ===================*/
+var logoAnimation = bodymovin.loadAnimation({
+    container: document.getElementById('logoanim'),
+    renderer: 'svg',
+    autoplay: true,
+    path: "js/ANIMATION IDIBA GROUP.json"
+})
 var phoneAnimation = bodymovin.loadAnimation({
     container: document.getElementById('animphone'),
     renderer: 'svg',
     autoplay: true,
-    path: "js/ANIMATION IDIBA GROUP.json"
+    path: "js/animeapp.json"
 })
 
 
