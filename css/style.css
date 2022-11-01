@@ -166,6 +166,7 @@ span:hover {
 
 .custom-font {
     font-family: 'poppins', sans-serif;
+    color: #fff;
 }
 
 
@@ -1434,7 +1435,7 @@ body {
 
 .sec-head {
     position: relative;
-    margin: 0 auto 80px;
+    margin: 0 auto 20px;
 }
 
 .sec-head h6 {
@@ -1447,7 +1448,7 @@ body {
 }
 
 .sec-head h3 {
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -1462,7 +1463,7 @@ body {
     text-align: center;
     font-size: 10vw;
     font-weight: 700;
-    color: transparent;
+    color: #000;
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
     opacity: .3;
 }
@@ -1558,7 +1559,6 @@ body {
 .btn-curve {
     background: #fff;
     padding: 12px 20px;
-    border: 1px solid #1e1e1e;
     position: relative;
     left: 0;
     overflow: hidden;
@@ -1615,9 +1615,9 @@ body {
     transition: all .8s;
 }
 
-.btn-curve.btn-lit {
-    border-color: #fff;
-    color: #fff;
+.btn-lit {
+    border-color: rgb(1, 1, 1);
+    color: rgb(0, 0, 0);
 }
 
 .btn-curve.btn-lit:hover span {
@@ -1823,7 +1823,6 @@ body {
 .navbar .search {
     color: #fff;
     padding-left: 30px;
-    border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .navbar .search .icon {
@@ -1839,9 +1838,7 @@ body {
     background: #F6F6F6;
     display: none;
     border-color: #707070;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    display: none;
     border-radius: 34px;
 }
 
@@ -2368,8 +2365,9 @@ body {
     -webkit-transition-delay: 1s;
     -o-transition-delay: 1s;
     transition-delay: 1s;
-    border: 2px solid;
+    border: 2px solid #fff;
     line-height: 2;
+    border-radius: 5px;
 }
 
 .slider .parallax-slider .caption .btn-curve span {
@@ -3668,6 +3666,15 @@ header.simpl .caption .btn-curve {
     border-radius: 5px;
     position: relative;
 }
+.center-elts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+  
 
 .about .ftbox ul li.space {
     margin: 0 10px;
@@ -3929,6 +3936,7 @@ header.simpl .caption .btn-curve {
     line-height: 1.8;
     text-transform: capitalize;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .services .rone>div {
@@ -4321,7 +4329,7 @@ header.simpl .caption .btn-curve {
     background: #02050b;
 }
 .clients h3{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 /* ====================== [ End brands ] ====================== */
@@ -6296,7 +6304,7 @@ padding: 15px;
 }
 
 .call-action .content h2 b span {
-    color: #fff;
+    color: #000;
     -webkit-text-stroke-width: 0;
 }
 
@@ -6749,7 +6757,7 @@ padding: 15px;
     }
     .navbar .logo {
         margin-left: 15px;
-        width: 50px;
+        width: 100px;
     }
     .nav-scroll .navbar-collapse .nav-link,
     .light .navbar-collapse .nav-link {
@@ -6768,6 +6776,7 @@ padding: 15px;
         display: block;
         position: static;
         height: auto;
+        width: 100%;
     }
     .navbar .search .search-form form {
         position: static;
@@ -6993,6 +7002,10 @@ padding: 15px;
         font-size: 12px;
         line-height: 16px;
     }
+    .center-elts{
+        margin-top: 70px;
+      }
+      
 }
 /* ====================== [Start Apk Section ] =======================*/
 
@@ -7071,7 +7084,7 @@ padding: 15px;
         bottom: 15px;
     }
     .navbar .logo {
-        width: 40px;
+        width: 80px;
     }
     .hamenu .menu-links .main-menu>li {
         font-size: 24px;
