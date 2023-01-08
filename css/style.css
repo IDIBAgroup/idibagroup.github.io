@@ -1560,6 +1560,61 @@ body {
   text-transform: capitalize;
 }
 /* ===== END WHITE BUTTON ===== */
+/* ===== START YELLOW BUTTON ===== */
+.yellow-btn{
+  background: #FFCA57;
+  padding: 12px 35px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #000;
+}
+.yellow-btn:focus{
+   outline: none;
+}
+.yellow-btn:hover{
+  outline: none;
+}
+.yellow-btn:hover:after{
+  bottom: -30px;
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.yellow-btn:hover span{
+  color: rgb(0, 0, 0);
+}
+.yellow-btn:after{
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  right: -30px;
+  bottom: 130%;
+  background:  #ffffff;
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+}
+.yellow-btn span{
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  position: relative;
+  z-index: 2;
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+/* ===== END YELLOW BUTTON ===== */
 
 /* ====================== [ Start Btn-curve, Btn-lit, Simple-btn ] ====================== */
 .btn-curve {
@@ -1654,9 +1709,9 @@ body {
   font-weight: 300; }
   .simple-btn:after {
     content: '';
-    width: 45%;
+    width: 60%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.07);
+    background: rgba(255, 255, 255, 0.1);
     position: absolute;
     left: 0;
     top: 0; }
@@ -2229,6 +2284,7 @@ body {
 .slider .parallax-slider .caption h5{
   text-align: left;
   margin-top: -10px;
+  
 }
 .slider .parallax-slider .caption p {
   color: #eee;
@@ -3017,6 +3073,7 @@ header.simpl .caption .btn-curve {
   background: #fff;
   position: relative;
   z-index: 3;
+  margin-top: 0px;
 }
 
 /* ====================== [ End Slider ] ====================== */
