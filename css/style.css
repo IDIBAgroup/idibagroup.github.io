@@ -3395,13 +3395,10 @@ header.simpl .caption .btn-curve {
   height: 100%;
   background-image: 
   linear-gradient(210deg, rgba(1, 76, 186, 1), rgba(5, 54, 128, 1), rgba(2, 35, 86, 1));
-}
-.about::content{
-  background: url("../img/icones.png");
   background-size: cover;
   background-repeat: no-repeat;
-
 }
+
 .about .content .co-tit {
   color: #75dab4;
   font-weight: 400;
