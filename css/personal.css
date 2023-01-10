@@ -68,9 +68,9 @@
 /* ======================== Start Ours Clients ======================= */
 
 :root {
-  --color-text: navy;
-  --color-bg: papayawhip;
-  --color-bg-accent: #ecdcc0;
+  --color-text: #022356;
+  --color-bg: #ACCDFF;
+  --color-bg-accent: #ACCDFF;
   --size: clamp(10rem, 1rem + 40vmin, 30rem);
   --gap: calc(var(--size) / 14);
   --duration: 60s;
@@ -80,14 +80,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-text: papayawhip;
-    --color-bg: navy;
-    --color-bg-accent: #2626a0;
+    --color-text: #ACCDFF;
+    --color-bg: #022356;
+    --color-bg-accent: #022356;
   }
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .clients {
@@ -207,8 +203,8 @@
   --size: 3rem;
   position: relative;
   /* position: fixed; */
-  top: 1rem;
-  left: 1rem;
+  top: -1rem;
+  left: 4rem;
   width: var(--size);
   height: var(--size);
   font: inherit;
