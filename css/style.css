@@ -55,6 +55,7 @@
 
 body {
   color: #0c0f16;
+  background: #fff;
   line-height: 1.5;
   font-weight: 400;
   overflow-x: hidden !important;
@@ -3389,6 +3390,18 @@ header.simpl .caption .btn-curve {
 
 /* ====================== [ end showcase ] ====================== */
 /* ====================== [ Start Intro ] ====================== */
+.about{
+  width: 100%;
+  height: 100%;
+  background-image: 
+  linear-gradient(210deg, rgba(1, 76, 186, 1), rgba(5, 54, 128, 1), rgba(2, 35, 86, 1));
+}
+.about::content{
+  background: url("../img/icones.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
 .about .content .co-tit {
   color: #75dab4;
   font-weight: 400;
