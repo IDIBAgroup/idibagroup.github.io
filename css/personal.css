@@ -1,3 +1,50 @@
+/* ======================== Start Import Logo box Content ======================= */
+img, svg {
+  vertical-align: middle;
+}
+.brand-ident {
+  padding: 12px 0;
+  text-align: center;
+  background-color: #f3f5fa;
+}
+.brand-ident img {
+  max-width: 90%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(200);
+}
+.brand-ident img:hover{
+  filter:none;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+/* .logo-presentation{
+  padding: 20px 0;
+} 
+.align-logo{
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.align-logo a{
+  margin-right:3%;
+  width: 80%;
+  height: auto;
+}
+ .align-logo a:hover {
+  background-color: #eeeeee;
+}
+.align-logo a img{
+  width: 100%;
+}*/
+/* ======================== End Import Logo box Content ======================= */
+
 /* ======================== Start Import services Section ======================= */
 .container .big-title-serv {
   text-align: center;

@@ -120,7 +120,12 @@ p {
   line-height: 2;
   margin: 0;
 }
+/*  */
 
+
+
+
+/*  */
 a,
 span {
   display: inline-block;
@@ -130,9 +135,9 @@ span:hover {
   text-decoration: none;
 }
 
-.container {
+/* .container {
   max-width: 1200px;
-}
+} */
 
 .custom-font {
   font-family: "Barlow Condensed", sans-serif;
@@ -1388,11 +1393,12 @@ body {
   margin-bottom: 20px;
 }
 .sub-title h6 {
-  font-family: "Barlow Condensed", sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 43px;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
+  color: #fff;
+  text-align: center;
 }
 .sub-title span {
   width: 4px;
@@ -1411,9 +1417,12 @@ body {
 }
 
 .main-title {
-  font-weight: 600;
+  font-weight: 300;
   line-height: 1.5;
   margin-bottom: 15px;
+  text-align: center;
+  color: #fff; 
+  font-size: 30px;
 }
 
 .extra-title {
@@ -3393,7 +3402,7 @@ header.simpl .caption .btn-curve {
   width: 100%;
   height: 100%;
   background-image: 
-  linear-gradient(210deg, rgba(1, 76, 186, 1), rgba(5, 54, 128, 1), rgba(2, 35, 86, 1));
+  linear-gradient(180deg,rgba(2, 35, 85,1), rgba(2, 35, 86,1), rgba(3, 70, 169,1));
   background-size: cover;
   background-repeat: no-repeat;
 }

@@ -19,11 +19,13 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
 
     <!-- AOS library -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css" />
     <!--Font Awesome library  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
     <!-- Plugins -->
     <link rel="stylesheet" href="css/plugins.css" />
+    <!-- SCSS style -->
+    <link rel="stylesheet" href="scss/style.scss" />
 
     <!-- Core Style Css -->
     <link rel="stylesheet" href="css/style.css" />
@@ -34,7 +36,7 @@
   <body>
     <!-- ==================== Start Loading ==================== -->
 
-    <div id="preloader"></div>
+    <!-- <div id="preloader"></div> -->
 
     <!-- ==================== End Loading ==================== -->
 
@@ -179,9 +181,9 @@
             <div class="container">
               <div class="bg-img valign" data-background="img/slid/02.jpg">
                 <div class=" row " style="flex-direction: row;">
-                  <div class="col-xl-12 col-md-12" style="padding: 0; z-index: -8;">
+                  <!-- <div class="col-xl-12 col-md-12" style="padding: 0; z-index: -8;">
                     <img src="img/slid/item.png" alt="">
-                  </div>
+                  </div> -->
                   <div class="col-lg-6 col-md-9" style="position: absolute; right: 0; top: 15%;">
                     <div class="caption" style="text-align: right;">
                       <h1 data-splitting style="font-size:60px">Original Solutions</h1>
@@ -221,100 +223,90 @@
 
     <!-- ==================== End Slider ==================== -->
     <div class="main-content">
-      <!-- ==================== Start about ==================== -->
-
-      <div class="about section-padding">
-        <div class="bg-img-icon" style=" width: 100%; height: 100%; background: url(img/icones.png);
-        background-attachment: initial; background-size: contain; background-repeat: no-repeat;">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-5">
-                <div class="img-mons">
-                  <div class="row">
-                    <div class="col-md-5 cmd-padding valign">
-                      <div class="img1 wow imago" data-wow-delay=".5s">
-                        <img src="img/intro/1.jpg" alt="" />
-                      </div>
-                    </div>
-                    <div class="col-md-7 cmd-padding">
-                      <div class="img2 wow imago" data-wow-delay=".3s">
-                        <img src="img/intro/3.jpg" alt="" />
-                      </div>
-                      <div class="img3 wow imago" data-wow-delay=".8s">
-                        <img src="img/intro/2.jpg" alt="" />
-                      </div>
-                    </div>
-                  </div>
+      <!-- ============== Start Brand identity Content ================ -->
+      <div class="brand-ident">
+        <div class="container">
+          <div class="row aos-init aos-animate" data-aos="zoom-in">
+            <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <a href="#" target="_blank">
+                    <img class="class="img-fluid src="img/apropos/IDIBA PRODUCTION.png"/>
+                  </a>
                 </div>
-              </div>
-              <div class="col-lg-6 offset-lg-1 valign">
-                <div class="content">
-                  <div class="sub-title">
-                    <h6>About Us</h6>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                  </div>
-                  <h3 class="main-title wow" data-splitting>
-                    We are more than just <br />
-                    a digital agency.
-                  </h3>
-                  <p class="wow txt" data-splitting>
-                    We are AVO. We create award-winning websites, remarkable
-                    brands and cutting-edge apps.Nullam imperdiet, sem at
-                    fringilla lobortis, sem nibh fringilla nibh, id gravida mi
-                    purus sit amet erat. Ut dictum nisi masvitp
-                  </p>
-                  <div class="ftbox mt-30">
-                    <ul>
-                      <li class="wow fadeIn" data-wow-delay=".3s">
-                        <span class="icon pe-7s-gleam"></span>
-                        <h6 class="custom-font">
-                          Pixel <br />
-                          Perfect
-                        </h6>
-                        <div class="dots">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                        </div>
-                      </li>
-                      <li class="space wow fadeIn" data-wow-delay=".5s">
-                        <span class="icon pe-7s-paint-bucket"></span>
-                        <h6 class="custom-font">
-                          Creative <br />
-                          Design
-                        </h6>
-                        <div class="dots">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                        </div>
-                      </li>
-                      <li class="wow fadeIn" data-wow-delay=".8s">
-                        <span class="icon pe-7s-medal"></span>
-                        <h6 class="custom-font">
-                          Heigh <br />
-                          Perfomance
-                        </h6>
-                        <div class="dots">
-                          <span></span>
-                          <span></span>
-                          <span></span>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <a href="#" target="_blank">
+                    <img class="class="img-fluid src="img/apropos/idiba concept.png" />
+                  </a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <a href="#" target="_blank">
+                    <img class="class="img-fluid src="img/apropos/idiba marketing digital.png" />
+                  </a>
+                </div>
+                  <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <a href="#" target="_blank">
+                      <img class="class="img-fluid src="img/apropos/idiba studio.png" />
+                  </a>
+                </div>
+                  <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <a href="#" target="_blank">
+                      <img class="class="img-fluid src="img/apropos/LOGO IDIBA EVENTS.png" />
+                  </a>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+                  <a href="#" target="_blank">
+                      <img class="class="img-fluid src="img/apropos/LOGO IDIBA EVENTS.png" />
+                  </a>
                 </div>
               </div>
             </div>
           </div>
+      <!-- ============== End Brand identity Box Content ================ -->
+      <!-- ============== Start Apropos Section ================ -->
+      <div class="apropos-section" style="max-height: 551px; background: #5E6463; width: 100%;">
+        <div class="col-lg-12 col-md-4 col-6" style="position: relative;">
+          <img src="img/apropos/logo idiba group avec fond.png" alt="">
+        </div>
+        <div class="container" style="position: relative; top: -50%; z-index: 9;">
+          <div class="row aos-init aos-animate" data-aos="zoom-in">
+            <div class="col-lg-3 col-md-4 col-6">
+              <img src="img/apropos/logo symbole idiba group.png" alt="">
+            </div>
+            <div class="col-lg-8 col-md-4 col-6" style="background: #FFF;">
+            </div>
+          </div>
         </div>
       </div>
+      <!-- ============== End Apropos Section ================ -->
+
+      <!-- ==================== Start about ==================== -->
+      <div class="about section-padding">
+          <div class="container">
+            <div class="row">
+            <div class="col-lg-10 valign bg-img-icon" style="position: absolute; display: flex;
+            align-items: center; justify-content: center; width: 100%;
+            height: 80vh;">
+              <img src="img/icones.png" alt="" style=" width:90% ; margin: 50px 0;">
+            </div>
+              <div class="col-lg-12 valign" style="z-index: 2; position:relative; top: -50%; left: 0;">
+                <div class="content">
+                  <div class="sub-title">
+                    <h6>About Us</h6>
+                    <!-- <span></span> <span></span> <span></span> -->
+                  </div>
+                  <h3 class="main-title wow" data-splitting>
+                      Notre valeur créative est de <br />
+                      donner du sens à nos travaux
+                    </h3>
+                </div>
+            </div>
+          </div>
+          </div>
+      </div>
+
+      <!-- ============== Start Apropos Section ================ -->
 
       <!-- ==================== End about ==================== -->
-
-      <!-- ==================== Start Services ==================== -->
+      <!-- ==================== Start Services ==================== --
  <div class="section-padding">
     <div class="container">
       <h1 class="big-title-serv">Our Services</h1>
@@ -732,33 +724,6 @@
           <div class="marquee">
             <div class="marquee__group">
               <svg>
-                <use href="img/clients/brands/LOGO CULTUDE 2.pn" />
-              </svg>
-              <svg>
-                <use xlink:href="#jordan" />
-              </svg>
-              <svg>
-                <use xlink:href="#aws" />
-              </svg>
-              <svg>
-                <use xlink:href="#spotify" />
-              </svg>
-              <svg>
-                <use xlink:href="#burger-king" />
-              </svg>
-              <svg>
-                <use xlink:href="#honda" />
-              </svg>
-              <svg>
-                <use xlink:href="#notion" />
-              </svg>
-              <svg>
-                <use xlink:href="#hulu" />
-              </svg>
-            </div>
-        
-            <div aria-hidden="true" class="marquee__group">
-              <svg>
                 <use xlink:href="#mcdonalds" />
               </svg>
               <svg>
@@ -783,6 +748,33 @@
                 <use xlink:href="#hulu" />
               </svg>
             </div>
+        
+            <!-- <div aria-hidden="true" class="marquee__group">
+              <svg>
+                <use xlink:href="#mcdonalds" />
+              </svg>
+              <svg>
+                <use xlink:href="#jordan" />
+              </svg>
+              <svg>
+                <use xlink:href="#aws" />
+              </svg>
+              <svg>
+                <use xlink:href="#spotify" />
+              </svg>
+              <svg>
+                <use xlink:href="#burger-king" />
+              </svg>
+              <svg>
+                <use xlink:href="#honda" />
+              </svg>
+              <svg>
+                <use xlink:href="#notion" />
+              </svg>
+              <svg>
+                <use xlink:href="#hulu" />
+              </svg>
+            </div> -->
           </div>
         
           <div class="marquee marquee--reverse">
@@ -1178,9 +1170,7 @@
     </div>
 
      <!-- AOS library -->
-     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-     <script>
-      AOS.init();</script>
+     <script src="node_modules/aos/dist/aos.js"></script>
     <!-- jQuery -->
     <script src="js/jquery-3.0.0.min.js"></script>
     <script src="js/jquery-migrate-3.0.0.min.js"></script>
@@ -1190,5 +1180,8 @@
 
     <!-- custom scripts -->
     <script src="js/scripts.js"></script>
+
+    <!-- perso scripts -->
+    <script src="js/perso_script.js"></script>
   </body>
 </html>
